@@ -1,9 +1,9 @@
-/* index.html */
+
 .logoweb{
    color: #2196f3;
 }
 header a{
-   color: black;
+   color: #212121.;
 }
 .banner{
    background-color: #2f303a;
@@ -12,4 +12,24 @@ header a{
 .button{
    color: #ffffff;
    background-color: #2196F3;
+}
+.address{
+   color: #FFFFFF;
+}
+.email{
+   color: #FFFFFF60;
+}
+.fon{
+   background-color: #2F303A;
+}
+.nomer{
+   color: #FFFFFF60;
+}
+.list-email{
+   color: #2196F3
+   ;
+}
+.list-tel{
+   color: 
+   #757575;
 }
