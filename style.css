@@ -19,6 +19,7 @@ header a{
 .email{
    color: #FFFFFF60;
 }
+
 .background{
    background-color: #2F303A;
 }
@@ -26,10 +27,17 @@ header a{
    color: #FFFFFF60;
 }
 .list-email{
-   color: #2196F3
+   color: #757575
    ;
 }
 .list-tel{
    color: 
    #757575;
+}
+.logostudio{
+   color: #FFFFFF;
+}
+.list-email:hover{
+   color: #2196F3;
+
 }
