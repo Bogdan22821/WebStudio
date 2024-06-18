@@ -8,9 +8,21 @@
    --team-background: #F5F4FA;
    --main-background: #FFF;
    }
+   ul{
+      margin: none;
+      padding: none;
+      list-style: none;
+   }
+   h1,h2,h3,h4, p{
+   margin: none;
+   }
+   img{
+      display: block;
+   }
 body{
    font-family: "Roboto";
 }
+
 .conteiner{
    width: 1200px;
    outline: 1px solid green;
@@ -117,6 +129,7 @@ letter-spacing: 1.08px;
    padding-top: 94px;
    padding-bottom: 94px;
 }
+
 .team-title{
    color: var(--text-color);
 text-align: center;
@@ -209,15 +222,4 @@ letter-spacing: 0.48px;
 }
 a{
    text-decoration: none;
-}
-ul{
-   margin: 0;
-   padding: 0;
-   list-style: 0;
-}
-h1,h2,h3,h4, p{
-margin: 0;
-}
-img{
-   display: block;
 }
