@@ -31,6 +31,12 @@ body{
    padding-right: 15px;
    padding-left: 15px;
 }
+
+.header{
+   padding-top: 24px;
+   padding-bottom: 25px;
+   display: flex;
+}
 .header-logo{
    color: var(--logo-color);
 font-family: "Raleway";
@@ -38,6 +44,7 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+margin-right: 93px;
 }
 .logo-span{
    color: var(--accent-color);
@@ -46,6 +53,11 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+}
+.nav-list{
+   display: flex;
+   gap: 50px;
+   margin-right: 344px;
 }
 .nav-link{
    color: var(--text-color);
@@ -57,6 +69,10 @@ letter-spacing: 0.28px;
 .nav-link:hover,
 .nav-link:focus{
    color: var(--accent-color);
+}
+.header-list{
+display: flex;
+gap: 50px;
 }
 .header-link{
    color: var(--additional-color);
@@ -83,6 +99,10 @@ font-weight: 900;
 line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
+width: 696px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 30px;
    }
 
    .hero-btn{
@@ -93,9 +113,19 @@ font-weight: 700;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;
 background-color: var(--accent-color);
+margin-right: auto;
+margin-left: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 32px;
+padding-right: 32px;
    }
    .advantages{
       padding-top: 94px;
+   }
+   .advantages-list{
+      display: flex;
+      gap: 30px;
    }
    .advantages-title{
       color: var(--text-color);
@@ -123,6 +153,13 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 50px;
+}
+.work-list{
+   display: flex;
+   gap: 30px;
 }
 .team{
    background-color: var(--team-background);
@@ -132,15 +169,26 @@ letter-spacing: 1.08px;
 
 .team-title{
    color: var(--text-color);
-text-align: center;
+   text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+.team-bac{
+   background-color: #FFF;
+}
+.team-list{
+   display: flex;
+gap: 30px;
+}
+.team-img{
+   width: 270px;
+   height: 260px;
 }
 .team-capitan{
    color: var(--text-color);
-text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
@@ -148,7 +196,6 @@ letter-spacing: 0.48px;
 }
 .team-desc{
    color: var(--additional-color);
-text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
